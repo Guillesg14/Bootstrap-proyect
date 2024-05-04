@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de diseño</title>
+    <!--CSS Botstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Dancing+Script:wght@400..700&family=Inter:wght@200&family=Lora&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Lora&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!--Titulo y nav-->
+        <div class="row bg-light align-items-center">
+            <div class="col-lg-3"><h1 id="sistema">Sistema de diseño</h1></div>
+            <div class="col-lg-9">
+                <div class="row justify-content-evenly">
+                    <div class="col-lg-2 col-sm-6"><a href="index.html">Restaurante</a></div>
+                    <div class="col-lg-2 col-sm-6"><a href="#colores">Colores</a></div>
+                    <div class="col-lg-2 col-sm-6"><a href="#fuentes">Fuentes</a></div>
+                    <div class="col-lg-2 col-sm-6"><a href="#componentes">Componentes</a></div>
+                    <div class="col-lg-2 col-sm-6"><a href="#formulario">Formulario</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- Uso de los colores -->
+        <div>
+            <div class="row bg-light mt-5 ">
+                <div class="col flex-column-iniline">
+                    <h2 id="colores">Colores y usos</h2>
+                </div>
+            </div>
+            <!--color gris-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-1 mt-3">
+                    <p style="background-color: rgba(19, 19, 19, 0.766); width: 100px; height: 100px;"></p>
+                </div>
+                <div class="col-xl-5 mt-3">
+                    <p>Este es el color rgba(19, 19, 19, 0.766) <br> Usado en el fondo del titulo, el nav, y el formulario.<br> Lleva aplicado transparencia para poder seguir visualizando la imagen de fondo</p>
+                </div>
+            </div>
+            <!--dorado de pagina-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-1 mt-3">
+                    <p style="background-color: rgba(195,174,109,255); width: 100px; height: 100px;"></p>
+                </div>
+                <div class="col-xl-5 mt-3">
+                    <p>Este es el color rgba(195,174,109,255) <br> Usado en el fondo de la carta. <br> Ha sido escogido para dar mas contraste a las letras negras de la misma</p>
+                </div>
+            </div>
+            <!--Imagen de fondo-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-1 mt-3">
+                    <img src="imagenes/fondo.jpg" alt="ejemplo fondo" style="width: 100px; height: 100px;">
+                </div>
+                <div class="col-xl-5 mt-3">
+                    <p>Este es la imagen de fondo empleada <br> Destaca mayoritariamente el color gris rgba(55,54,57,255) <br>Escogida para mantener el contraste con las letras blancas </p>
+                </div>
+            </div>
+        </div>
+        <!-- Uso de las fuentes -->
+        <div>
+            <div class="row bg-light mt-5">
+                <div class="col flex-column-iniline">
+                    <h2 id="fuentes">Fuentes y usos</h2>
+                </div>
+            </div>
+            <!--letra dancing script-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-2 mt-3 mb-3 bg-dark">
+                    <h3 style="color: white; font-family: Dancing Script;">Dancing Script</h3>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <p>Esta es la letra <a href="href=https://fonts.google.com/specimen/Dancing+Script?query=dancing+script">Dancing Script</a><br>Usada en este mismo color blanco para los titulos y las cabeceras, obtenida desde google fonts<br></p>
+                </div>
+            </div>
+            <!--letra Raleway-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-2 mt-3  mb-3 bg-dark">
+                    <h3 style="color: white; font-family: Raleway;">Raleway</h3>
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <p>Esta es la letra <a href="https://fonts.google.com/specimen/Raleway?query=raleway">Raleway</a><br>Usada en este mismo color blanco para los parrafos y el dormulario, obtenida desde google fonts<br></p>
+                </div>
+            </div>
+            <!--Letra titulo carta-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-md-2 col-sm-4 mt-3  mb-3 bg-dark g-0">
+                    <img src="imagenes/letracarta.jpg" alt="imagen de letra de carta" style="width: 100%;">
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <p>Esta es la letra Adirek Sherif <br>Obtenida del propio modelo de canva, usada en los titulos de las secciones de la carta<br></p>
+                </div>
+            </div>
+            <!--letra general carta-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-md-2 col-sm-4 mt-3  mb-3 bg-dark g-0">
+                    <img src="imagenes/letracarta2.jpg" alt="imagen de letra de carta" style="width: 100%;">
+                </div>
+                <div class="col-xl-6 mt-3">
+                    <p>Esta es la letra Monserrat classic <br>Obtenida del propio modelo de canva, usada en los elementos de la carta<br></p>
+                </div>
+            </div>
+        </div>
+        <!--Componentes-->
+        <div>
+            <div class="row bg-light mt-5">
+                <div class="col flex-column-iniline">
+                    <h2 id="componentes">Componentes</h2>
+                </div>
+            </div>
+            <!--Menu desplegable-->
+            <div class="row bg-light mt-3 align-items-left  ">                
+                <div class="col-xl-2 mt-3 mb-3">
+                    <h3>Menu desplegable</h3>
+                </div>
+                <div class="col-xl-1 mt-3 mb-3">
+                    <img src="imagenes/iconomenu.jpg" alt="imagen de icono">
+                </div>
+                <div class="col-xl-3 mt-3 mb-3">
+                    <img src="imagenes/desplegable.jpg" class="img-fluid" alt="imagen de desplegable">
+                </div>
+
+                <div class="col-xl-4 mt-3 mb-3">
+                    <p>Usamos el elemento navbar, junto con el elemento offcanvas<br>
+                    que nos permite hacer un menu desplegable desde la izda, donde añadimos los enlaces al sistema de diseño y la memoria usando una lista. <br>
+                    Haz click <a href="https://getbootstrap.com/docs/5.0/components/offcanvas/">aqui</a> para acceder a su documentacion</p>
+                </div>
+            </div>
+            <!--Carrusel-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-2 mt-3 mb-3">
+                    <h3>Carrusel</h3>
+                </div>
+                <div class="col-xl-3 col-md-5 mt-3 mb-3">
+                    <img src="imagenes/carrusel.jpg" class="img-fluid"   alt="imagen del carrusel">
+                </div>
+
+                <div class="col-xl-4 mt-3 mb-3">
+                    <p>Usamos el elemento carrusel que nos permite hacer una vista rapida a la carta del reestaurante usando dos fotos como elemntos del carrusel <br>
+                    Haz click <a href="https://getbootstrap.com/docs/5.0/components/carousel/">aqui</a> para acceder a su documentacion</p>
+                </div>
+            </div>
+            <!--Formulario-->
+            <div class="row bg-light mt-3 align-items-left  ">
+                <div class="col-xl-2 mt-3 mb-3">
+                    <h3 id="formulario">Formulario</h3>
+                </div>
+                <div class="col-xl-3 col-md-5 mt-3 mb-3">
+                    <img src="imagenes/formulario.jpg" class="img-fluid"   alt="imagen del carrusel">
+                </div>
+
+                <div class="col-xl-4 mt-3 mb-3">
+                    <p>Usamos el elemento formulario que nos permite darle un estilo rapido y sencillo al formulario de contacto de nuestra página.  <br>
+                    Haz click <a href="https://getbootstrap.com/docs/5.0/forms/overview/">aqui</a> para acceder a su documentacion</p>
+                </div>
+            </div>
+
+        </div>
+        <!--Footer-->
+        <footer class="footer mt-5 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-2  mt-4 mb-4">
+                        <a href="#sistema">Volver arriba</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-color: #ffffff;
+}
+a{
+    outline: none;
+    text-decoration: underline;
+    color: black;
+}

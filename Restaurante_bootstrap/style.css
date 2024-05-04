@@ -1,0 +1,37 @@
+
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+        box-shadow: none;
+    }
+    .carousel-item{
+    text-align: center;
+    min-height: 100px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+    }
+
+    label, h3, #info {
+        color: white;
+        font-family:"Raleway";
+    }
+    .titulogeneral
+    {
+        color: white;
+        font-family: "Dancing Script";
+    }
+    a.titulogeneral{
+        font-size: x-large;
+    }
+   #body{
+        background-image: url("imagenes/fondo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+
+    }
+
+   #titulo, #info, #nav, #carta, #formulario{
+        background-color: rgba(19, 19, 19, 0.766);
+    }
+
